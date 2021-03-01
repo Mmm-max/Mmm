@@ -252,68 +252,70 @@ blue_btm.add(btm_sprites)
 # bals
 for i in range(7):
 
-    green_ball = Green_ball(-i * 2320 + -1000)
+    green_ball = Green_ball(-i * 2340 + -1000)
     green_ball.add(all_sprites)
-    red_ball = Red_ball(-i * 2320 + -1125)
+    red_ball = Red_ball(-i * 2340 + -1120)
     red_ball.add(all_sprites)
-    yellow_ball = Yellow_ball(-i * 2300 + -1275)
+    yellow_ball = Yellow_ball(-i * 2340 + -1233)
     yellow_ball.add(all_sprites)
     # blue_ball = Blue_ball(-1000)
     # blue_ball.add(all_sprites)
 
     # 2
 
-    yellow_ball = Yellow_ball(-i * 2320 + -1425)
+    yellow_ball = Yellow_ball(-i * 2340 + -1363)
     yellow_ball.add(all_sprites)
-    blue_ball = Blue_ball(-i * 2320 + -1475)
+    blue_ball = Blue_ball(-i * 2340 + -1412)
     blue_ball.add(all_sprites)
-    yellow_ball = Yellow_ball(-i * 2320 + -1525)
+    yellow_ball = Yellow_ball(-i * 2340 + -1469)
     yellow_ball.add(all_sprites)
-    blue_ball = Blue_ball(-i * 2320 + -1575)
+    blue_ball = Blue_ball(-i * 2340 + -1540)
     blue_ball.add(all_sprites)
 
     # 3
 
-    red_ball = Red_ball(-i * 2320 + -1700)
+    red_ball = Red_ball(-i * 2340 + -1653)
     red_ball.add(all_sprites)
-    yellow_ball = Yellow_ball(-i * 2320 + -1825)
+    yellow_ball = Yellow_ball(-i * 2340 + -1794)
     yellow_ball.add(all_sprites)
 
     # 4
 
-    yellow_ball = Yellow_ball(-i * 2320 + -2050)
+    yellow_ball = Yellow_ball(-i * 2340 + -1944)
     yellow_ball.add(all_sprites)
-    blue_ball = Blue_ball(-i * 2320 + -2100)
+    blue_ball = Blue_ball(-i * 2340 + -1995)
     blue_ball.add(all_sprites)
-    yellow_ball = Yellow_ball(-i * 2320 + -2150)
+    yellow_ball = Yellow_ball(-i * 2340 + -2050)
     yellow_ball.add(all_sprites)
-    blue_ball = Blue_ball(-i * 2320 + -2200)
+    blue_ball = Blue_ball(-i * 2340 + -2098)
     blue_ball.add(all_sprites)
 
     # 5
 
-    red_ball = Red_ball(-i * 2320 + -2350)
+    red_ball = Red_ball(-i * 2340 + -2230)
     red_ball.add(all_sprites)
-    yellow_ball = Yellow_ball(-i * 2320 + -2475)
+    yellow_ball = Yellow_ball(-i * 2340 + -2376)
     yellow_ball.add(all_sprites)
 
     # 6
 
-    yellow_ball = Yellow_ball(-i * 2320 + -2675)
+    yellow_ball = Yellow_ball(-i * 2340 + -2517)
     yellow_ball.add(all_sprites)
-    blue_ball = Blue_ball(-i * 2320 + -2725)
+    blue_ball = Blue_ball(-i * 2340 + -2568)
     blue_ball.add(all_sprites)
-    yellow_ball = Yellow_ball(-i * 2320 + -2775)
+    yellow_ball = Yellow_ball(-i * 2340 + -2620)
     yellow_ball.add(all_sprites)
-    blue_ball = Blue_ball(-i * 2320 + -2825)
+    blue_ball = Blue_ball(-i * 2340 + -2671)
     blue_ball.add(all_sprites)
 
     # 7
 
-    red_ball = Red_ball(-i * 2320 + -2925)
+    red_ball = Red_ball(-i * 2340 + -2803)
     red_ball.add(all_sprites)
-    yellow_ball = Yellow_ball(-i * 2320 + -3075)
+    yellow_ball = Yellow_ball(-i * 2320 + -2950)
     yellow_ball.add(all_sprites)
+    red_ball = Red_ball(-i * 2340 + -3098)
+    red_ball.add(all_sprites)
 
 
 running = True
